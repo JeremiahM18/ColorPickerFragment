@@ -12,7 +12,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.GridLayout;
 
-public class InfoWebFragment extends Fragment {
+public class ColorPickFragment extends Fragment {
 
     private String[] colors;
     private GridLayout grid;
@@ -27,7 +27,7 @@ public class InfoWebFragment extends Fragment {
         }
     };
 
-    public InfoWebFragment() {
+    public ColorPickFragment() {
         // Empty public constructor
     }
 

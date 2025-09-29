@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity implements OnMessageSendList
         if (savedInstanceState == null) {
             fg = getSupportFragmentManager();
             FragmentTransaction trans = fg.beginTransaction();
-            InfoWebFragment cf = new InfoWebFragment();
+            ColorPickFragment cf = new ColorPickFragment();
             trans.add(R.id.colorFragment, cf, "colorFragment");
-            TickerListFragment cl = new TickerListFragment();
+            ColorListFragment cl = new ColorListFragment();
             trans.add(R.id.listFragment, cl, "listFragment");
 
             trans.commit();
