@@ -3,11 +3,11 @@ import androidx.lifecycle.ViewModel;
 
 import java.util.LinkedList;
 
-public class ColorsViewModel extends ViewModel {
+public class TickerViewModel extends ViewModel {
 
     private MutableLiveData<LinkedList<String>> colorsLL;
 
-    public ColorsViewModel() {
+    public TickerViewModel() {
         colorsLL = new MutableLiveData<>();
     }
 

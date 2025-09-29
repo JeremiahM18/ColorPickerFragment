@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class ColorListFragment extends Fragment {
+public class TickerListFragment extends Fragment {
 
-    public ColorListFragment() {
+    public TickerListFragment() {
         // Required empty public constructor
     }
 

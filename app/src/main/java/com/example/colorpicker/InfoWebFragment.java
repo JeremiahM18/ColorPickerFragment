@@ -4,8 +4,6 @@ import android.content.Context;
 import android.graphics.Color;
 import android.os.Bundle;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -13,9 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.GridLayout;
-import android.widget.Toast;
 
-public class ColorPickFragment extends Fragment {
+public class InfoWebFragment extends Fragment {
 
     private String[] colors;
     private GridLayout grid;
@@ -30,7 +27,7 @@ public class ColorPickFragment extends Fragment {
         }
     };
 
-    public ColorPickFragment() {
+    public InfoWebFragment() {
         // Empty public constructor
     }
 

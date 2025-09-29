@@ -1,11 +1,9 @@
 package com.example.colorpicker;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
-import android.graphics.Color;
 import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity implements OnMessageSendListener {
@@ -18,9 +16,9 @@ public class MainActivity extends AppCompatActivity implements OnMessageSendList
         if (savedInstanceState == null) {
             fg = getSupportFragmentManager();
             FragmentTransaction trans = fg.beginTransaction();
-            ColorPickFragment cf = new ColorPickFragment();
+            InfoWebFragment cf = new InfoWebFragment();
             trans.add(R.id.colorFragment, cf, "colorFragment");
-            ColorListFragment cl = new ColorListFragment();
+            TickerListFragment cl = new TickerListFragment();
             trans.add(R.id.listFragment, cl, "listFragment");
 
             trans.commit();
