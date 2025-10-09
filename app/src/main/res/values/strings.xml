@@ -13,5 +13,6 @@
         <item>#800000</item> <!-- Maroon -->
         <item>#008000</item> <!-- Dark Green -->
         <item>#000080</item> <!-- Navy -->
+        <item>#400000</item> <!-- Dark Red-->
     </string-array>
 </resources>

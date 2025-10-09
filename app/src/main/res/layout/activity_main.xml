@@ -7,18 +7,13 @@
         android:id="@+id/colorFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="1">
     </androidx.fragment.app.FragmentContainerView>
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/listFragment"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/webFragment"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
 </LinearLayout>
